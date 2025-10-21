@@ -14,7 +14,7 @@ This is the repository for analysis for Project 2 in DS 4002
 
 ## Section 2: File Structure
 ```
-├DS-4002-Project-1-M3/
+├DS-4002-Project-2-M3/
 │
 ├── DATA/ # Raw and processed data files
 │ ├── ORIGINALDATA.md # This provides the source of the data, providing a link to download them
@@ -24,16 +24,16 @@ This is the repository for analysis for Project 2 in DS 4002
 │ └── process-purchases.csv # Combines amazon-purchases.csv and survey.csv, omitting uneeded columns and rows
 │
 ├── OUTPUT/ # Generated charts and figures for reporting
-│ ├── 
-│ ├── 
+│ ├── category_counts.png # Output graph produced by surface level analysis notebook Category.ipynb that displays counts for top 20 categories
+│ ├── monthly_purchases.png # Output graph produced by surface level analysis notebook Month.ipynb that displays counts for every mont
 │ ├── 
 │ ├── 
 │ └── 
 │
 ├── SCRIPTS/ # Jupyter notebooks for analysis
-│ ├── 
-│ ├── 
-│ ├── 
+│ ├── Categories.ipynb # Notebook for surface level analysis of how many purchases made in the top 20 categories
+│ ├── Month.ipynb # Notebook for surface level analysis of how many purchases made in each month
+│ ├── Preprocessing.ipynb # Preproccesses the original data by joining the two csv files and getting rid of any rows with missing data
 │ └── 
 │
 ├── README.md # Project overview and instructions
@@ -46,7 +46,14 @@ This is the repository for analysis for Project 2 in DS 4002
 ### 1. Set Up the Project Structure
 Clone this repository and ensure your local folder structure matches the layout shown in **Section 2** of this README:
 
-### 2. 
+### 2.  Run Preprocessing
+Open and run the notebook [Prepocessing.ipynb](https://github.com/Bubcheeseburger/-DS-4002-Project-2-M3-/blob/main/SCRIPTS/Preprocessing.ipynb):
+This notebook will:
+- Load (`amazon-purchases.csv` and `survey.csv`).
+- Join to the two tables using 'Survey ResponseID'.
+- Remove any rows with missing data values
+- Output a new, processed dataset:  
+  **`../DATA/process-purchases.csv`**
 
 ### 3.
 
