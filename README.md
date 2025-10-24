@@ -25,15 +25,13 @@ This is the repository for analysis for Project 2 in DS 4002
 │
 ├── OUTPUT/ # Generated charts and figures for reporting
 │ ├── category_counts.png # Output graph produced by surface level analysis notebook Category.ipynb that displays counts for top 20 categories
-│ ├── monthly_purchases.png # Output graph produced by surface level analysis notebook Month.ipynb that displays counts for every mont
-│ ├── 
-│ ├── 
-│ └── 
+│ └── monthly_purchases.png # Output graph produced by surface level analysis notebook Month.ipynb that displays counts for every mont 
 │
 ├── SCRIPTS/ # Jupyter notebooks for analysis
 │ ├── Categories.ipynb # Notebook for surface level analysis of how many purchases made in the top 20 categories
 │ ├── Month.ipynb # Notebook for surface level analysis of how many purchases made in each month
 │ ├── Preprocessing.ipynb # Preproccesses the original data by joining the two csv files and getting rid of any rows with missing data
+│ ├── FeatureImportance.ipynb # Uses forecasting combined with demographic data to figure out what demographics are the most imporant when it comes to forecasting purchases
 │ └── 
 │
 ├── README.md # Project overview and instructions
