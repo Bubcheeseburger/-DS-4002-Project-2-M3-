@@ -8,7 +8,9 @@ This is the repository for analysis for Project 2 in DS 4002
 ### Key Packages:
   - Pandas (data manipulation)
   - Numpy (numerical operation)
-  - 
+  - Xgboost (classification model)
+  - SARIMAX (forecasting model)
+  - Sklearn (evaluation metrics)
 
 ### This project was deveopled on MacOS and Windows
 
